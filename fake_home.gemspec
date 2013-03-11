@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = FakeHome::VERSION
   spec.authors       = ["DSIW"]
   spec.email         = ["dsiw@dsiw-it.de"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Manipulates your HOME environment variable.}
+  spec.summary       = %q{Manipulates and restores your HOME environment variable for test suites.}
+  spec.homepage      = "https://github.com/DSIW/fake_home"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
