@@ -5,7 +5,7 @@ module FakeHome
   # Will be thrown if your HOME isn't prepared for restoring.
   class PreparationError < StandardError; end
 
-  # It manipulate and restores your environment variable $HOME. I recommend to use it in your test suite.
+  # It manipulates and restores your environment variable $HOME. I recommend to use it in your test suite.
   #
   # More examples are in each method. Take a look!
   #
