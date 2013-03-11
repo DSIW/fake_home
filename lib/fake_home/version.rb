@@ -1,3 +1,3 @@
 module FakeHome
-  VERSION = "0.0.1"
+  VERSION = File.read(File.absolute_path("../../../VERSION", __FILE__))
 end
