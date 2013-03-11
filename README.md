@@ -1,6 +1,6 @@
 # FakeHome
 
-TODO: Write a gem description
+It manipulates and restores your environment variable $HOME. I recommend to use it in your test suite.
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+``` ruby
+include FakeHome
+
+Home.new("/tmp/fake_home").fake_home do |new_home|
+  new_home == ENV["HOME"]
+end
+```
 
 ## Contributing
 
