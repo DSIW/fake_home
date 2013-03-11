@@ -1,5 +1,2 @@
 require "fake_home/version"
-
-module FakeHome
-  # Your code goes here...
-end
+require "fake_home/fake_home"
