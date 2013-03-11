@@ -19,6 +19,7 @@ Or install it yourself as:
 ## Usage
 
 ``` ruby
+require "fake_home"
 include FakeHome
 
 Home.new("/tmp/fake_home").fake_home do |new_home|
